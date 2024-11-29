@@ -3,13 +3,15 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCBusxuY7BM4HIne5AAnjj9Cnl5wBqB8nw",
-    authDomain: "linkedin-clone-yt-cd9ca.firebaseapp.com",
-    projectId: "linkedin-clone-yt-cd9ca",
-    storageBucket: "linkedin-clone-yt-cd9ca.appspot.com",
-    messagingSenderId: "749069401920",
-    appId: "1:749069401920:web:0022f0f7c26d81ff9204a5"
-  };
+  apiKey: "AIzaSyC4JItG5JlYGgFmvN4kQYs-OiD2NsNfNIA",
+  authDomain: "linkedinc-1058d.firebaseapp.com",
+  projectId: "linkedinc-1058d",
+  storageBucket: "linkedinc-1058d.firebasestorage.app",
+  messagingSenderId: "238149205017",
+  appId: "1:238149205017:web:7cace8d644b17f02a4be88",
+  measurementId: "G-83R9CD62QQ"
+};
+
 
 // Use this to initialize the firebase App
 const firebaseApp = firebase.initializeApp(firebaseConfig);
